@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selecter</title>
+    <style>
+        /* Element Selecter */
+        div {
+            /* background-color: red; */
+        }
+
+        /* Class Selecter */
+        .one {
+            background-color: green;
+        }
+
+        /* ID Selecter */
+        #two {
+            background-color: red;
+        }
+
+        /* Child Selecter */
+         div>p {
+            color: rgb(33, 209, 57);
+            background-color: blueviolet; 
+        } 
+
+        /* Descendant Selecter */
+        div p {
+            /* color: aqua; */
+            background-color: blueviolet;
+        }
+
+        /* Universal Selecter */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selecter */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            /* color: red; */
+            background-color: blue;
+        }
+
+        a:hover {
+            background-color: red;
+        }
+
+         p:first-child{
+            background-color: brown; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hashir">
+        <p>I am hashir</p>
+        I am hashir
+    </div>
+
+    <div class="one">
+        I am div
+        <nav>
+            <p>I am ali</p>
+        </nav>
+    </div>
+
+    <div id="two">
+        I am hashir
+    </div>
+    <a href="https://www.google.com">go to google</a>
+    <a href="https://www.youtube.com">go to youtube</a>
+    <a href="https://www.quora.com">go to quora</a>
+
+
+</body>
+
+</html>
