@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css specificity and cascade</title>
+    <style>
+        /* id then class then class then element them universal selector */
+        h1 {
+            color: blue;
+        }
+
+        /* impotant change the all selector */
+        /* .yellow {
+            color: yellow !important;
+        } */
+
+        h1.cpurple {
+            color: purple;
+        }
+
+        .cred {
+            color: red;
+        }
+
+        /* it is atrribute selector  */
+        /* [data-5=hashir]{
+            background-color: green;
+        } */
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-5="hashir">CSS Specificity</h1>
+    </div>
+</body>
+
+</html>
